@@ -8,7 +8,7 @@ function Demo() {
   const ydoc = new Y.Doc();
   useEffect(() => {
     const websocketProvider = new WebsocketProvider(
-      "wss://valtio-yjs.netlify.app/demo",
+      "wss://demos.yjs.dev",
       "valtio-yjs-demo",
       ydoc
     );
