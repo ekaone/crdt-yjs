@@ -9,7 +9,7 @@ function Demo() {
   useEffect(() => {
     const websocketProvider = new WebsocketProvider(
       "wss://demos.yjs.dev",
-      "valtio-yjs-demo",
+      "valtio-yjs-demo-eka",
       ydoc
     );
   }, []);
